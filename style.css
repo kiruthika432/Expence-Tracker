@@ -8,7 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url('/istockphoto-1355270064-612x612.jpg'); /* Add your image path here */
+    background-image: url('istockphoto-1355270064-612x612.jpg'); /* Add your image path here */
     background-size: cover; /* Ensures the image covers the entire background */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
