@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     font-family: 'Arial', sans-serif;
     color: #333;
@@ -8,22 +8,22 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url('istockphoto-1355270064-612x612.jpg'); /* Add your image path here */
-    background-size: cover; /* Ensures the image covers the entire background */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-image: url('/istockphoto-1355270064-612x612.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
   }
   
   .container {
-    background-color: rgba(255, 255, 255, 0.3); /* Fully transparent white background */
+    background-color: rgba(255, 255, 255, 0.3); 
     padding: 2rem;
-    border-radius: 20px; /* Rounded corners for bubble effect */
-    backdrop-filter: blur(10px); /* Adds a blur effect to the background */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    border-radius: 20px; 
+    backdrop-filter: blur(10px); 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
     width: 100%;
     max-width: 400px;
     text-align: center;
-    border: 1px solid rgba(255, 255, 255, 0.2); /* Light border for definition */
+    border: 1px solid rgba(255, 255, 255, 0.2); 
   }
   
   h1 {
@@ -41,20 +41,20 @@ body {
   
   input {
     padding: 0.75rem;
-    border: 1px solid rgba(255, 255, 255, 0.5); /* Light border for inputs */
+    border: 1px solid rgba(255, 255, 255, 0.5); 
     border-radius: 5px;
     font-size: 1rem;
-    background-color: rgba(255, 255, 255, 0.3); /* Transparent input background */
+    background-color: rgba(255, 255, 255, 0.3); 
     color: #333;
   }
   
   input::placeholder {
-    color: rgba(0, 0, 0, 0.6); /* Placeholder text color */
+    color: rgba(0, 0, 0, 0.6); 
   }
   
   button {
     padding: 0.75rem;
-    background-color: rgba(74, 144, 226, 0.9); /* Semi-transparent button background */
+    background-color: rgba(74, 144, 226, 0.9);
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -64,7 +64,7 @@ body {
   }
   
   button:hover {
-    background-color: rgba(53, 122, 189, 0.9); /* Darker on hover */
+    background-color: rgba(53, 122, 189, 0.9); 
   }
   
   .expense-list {
@@ -77,15 +77,15 @@ body {
   }
   
   li {
-    background-color: rgba(255, 255, 255, 0.3); /* Transparent list item background */
+    background-color: rgba(255, 255, 255, 0.3); 
     padding: 0.75rem;
-    border: 1px solid rgba(255, 255, 255, 0.5); /* Light border for list items */
-    border-radius: 10px; /* Rounded corners for list items */
+    border: 1px solid rgba(255, 255, 255, 0.5); 
+    border-radius: 10px; 
     margin-bottom: 0.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    backdrop-filter: blur(5px); /* Blur effect for list items */
+    backdrop-filter: blur(5px); 
   }
   
   li span {
@@ -95,7 +95,7 @@ body {
   
   li button {
     margin-left: 0.5rem;
-    background-color: rgba(255, 77, 77, 0.9); /* Semi-transparent delete button */
+    background-color: rgba(255, 77, 77, 0.9);
     border: none;
     color: white;
     padding: 0.5rem;
@@ -104,7 +104,7 @@ body {
   }
   
   li button.edit {
-    background-color: rgba(74, 144, 226, 0.9); /* Semi-transparent edit button */
+    background-color: rgba(74, 144, 226, 0.9); 
   }
   
   .total-container {
