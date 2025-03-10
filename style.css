@@ -1,0 +1,118 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('/istockphoto-1355270064-612x612.jpg'); /* Add your image path here */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+  }
+  
+  .container {
+    background-color: rgba(255, 255, 255, 0.3); /* Fully transparent white background */
+    padding: 2rem;
+    border-radius: 20px; /* Rounded corners for bubble effect */
+    backdrop-filter: blur(10px); /* Adds a blur effect to the background */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Light border for definition */
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #4a90e2;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  input {
+    padding: 0.75rem;
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Light border for inputs */
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: rgba(255, 255, 255, 0.3); /* Transparent input background */
+    color: #333;
+  }
+  
+  input::placeholder {
+    color: rgba(0, 0, 0, 0.6); /* Placeholder text color */
+  }
+  
+  button {
+    padding: 0.75rem;
+    background-color: rgba(74, 144, 226, 0.9); /* Semi-transparent button background */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: rgba(53, 122, 189, 0.9); /* Darker on hover */
+  }
+  
+  .expense-list {
+    margin-top: 1.5rem;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: rgba(255, 255, 255, 0.3); /* Transparent list item background */
+    padding: 0.75rem;
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Light border for list items */
+    border-radius: 10px; /* Rounded corners for list items */
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(5px); /* Blur effect for list items */
+  }
+  
+  li span {
+    flex: 1;
+    text-align: left;
+  }
+  
+  li button {
+    margin-left: 0.5rem;
+    background-color: rgba(255, 77, 77, 0.9); /* Semi-transparent delete button */
+    border: none;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  li button.edit {
+    background-color: rgba(74, 144, 226, 0.9); /* Semi-transparent edit button */
+  }
+  
+  .total-container {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+  }
+  
+  #total-amount {
+    color: #4a90e2;
+    font-weight: bold;
+  }
